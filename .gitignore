@@ -1,0 +1,23 @@
+# Secretos
+.env
+
+# Base de datos y logs (volúmenes de runtime)
+data/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp

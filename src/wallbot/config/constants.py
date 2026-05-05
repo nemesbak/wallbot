@@ -1,0 +1,2 @@
+SEARCH_INTERVAL = 300  # 5 minutes
+TIMEOUT = 3000

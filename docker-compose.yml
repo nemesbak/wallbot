@@ -1,0 +1,10 @@
+services:
+  wallbot:
+    build: .
+    container_name: wallbot
+    restart: unless-stopped
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+    volumes:
+      - ./data:/data
+      - ./logs:/logs
